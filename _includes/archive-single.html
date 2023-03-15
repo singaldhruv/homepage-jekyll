@@ -3,23 +3,29 @@
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
 
-    <h2 class="archive__item-title" itemprop="headline">{{ post.title }}
-    </h2>
+    <h2 class="archive__item-title" itemprop="headline">{{ post.title }}</h2>
 
-        {% if post.collection == 'publications' %}
-            {% if post.published == 'no' %}
-              <p>Forthcoming in <i>{{ post.venue }}</i></p>
-            {% else %}
-              <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-            {% endif %}
-            <p> {{post.authors}} </p>
+    {% if post.collection == 'publications' %}
+        {% if post.published == 'no' %}
+          <p>Forthcoming in <i>{{ post.venue }}</i></p>
+        {% else %}
+          <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% endif %}
-    
-    {% if post.paperurl %}
-      <a href="{{ post.paperurl  }}"><i class="fas fa-fw fa-file-pdf zoom" aria-hidden="true"></i></a>
     {% endif %}
+
+    {% if post.authors %}
+        <p> {{post.authors}} </p>
+    {% endif %}
+
+    {% if post.paperurl %}
+        <a href="{{ post.paperurl  }}"><i class="fas fa-fw fa-file-pdf zoom" aria-hidden="true"></i></a>
+    {% endif %}
+    {% if post.link %}
+        <a href="{{ post.link  }}"><i class="fas fa-fw fa-link zoom" aria-hidden="true"></i></a>
+    {% endif %}
+
     {% if post.excerpt %}
-    {{post.excerpt}}
+    <p> <i> {{post.excerpt}} </i></p>
     {% endif %}
 
   </article>
