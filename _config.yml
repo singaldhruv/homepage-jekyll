@@ -11,7 +11,7 @@ title                    : "Dhruv Singal"
 title_separator          : "-"
 name                     : &name "Dhruv Singal"
 description              : &description "Personal Homepage"
-url                      : https://dhruvsingal.netlify.app/
+url                      : www.dhruvsingal.com 
 baseurl                  : ""
 repository               : "singaldhruv/homepage-jekyll"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
