@@ -1,8 +1,7 @@
-# Author
-
-Dhruv Singal:
+dhruv_singal:
   name        : "Dhruv Singal"
-  uri         : "https://dhruvsingal.com"
+  uri         : "www.dhruvsingal.com"
   email       : "dhruv.singal@columbia.edu"
-  avatar      : "headshot.jpg"
-  twitter     : "singaldhru"
+  avatar      : "headshot-cropped.jpg"
+  twitter     : "singaldhruv"
+  googlescholar: "https://scholar.google.com/citations?user=gbZMntUAAAAJ&hl=en"
