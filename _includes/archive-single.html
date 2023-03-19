@@ -25,7 +25,7 @@
     {% endif %}
 
     {% if post.excerpt %}
-    <p> <i> {{post.excerpt}} </i></p>
+    <p> <i> {{post.excerpt | newline_to_br}} </i></p>
     {% endif %}
 
     {% if post.collection == 'workingpapers' %}
