@@ -2,7 +2,7 @@
 title: "Valuing Financial Data"
 collection: workingpapers
 authors: 'Maryam Farboodi, Dhruv Singal, Laura Veldkamp and Venky Venkateswaran'
-date: 2023-04-25
+date: 2023-06-06
 excerpt: "Winner of the SFI Outstanding Paper Award, 2022 
 
 R&R at The Review of Financial Studies
