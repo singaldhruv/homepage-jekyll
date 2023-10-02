@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I am a data nerd who loves maths, statistics, finance and economics. **I am actively looking for full-time roles in the US (starting in Summer 2024) in research and development across software, quantitative finance and investment banking.**
+Hi! I am a data nerd who loves maths, statistics, finance and economics. **I am actively looking for full-time roles in the US (starting in Summer 2024) in research and development across tech, quantitative finance and investment banking.**
 
 Currently, I am a PhD resident at [(Google) X](https://x.company), where I am working on a moonshot to solve climate change using ML/AI and financial engineering.
 
