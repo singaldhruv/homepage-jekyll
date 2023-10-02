@@ -1,10 +1,10 @@
 # main links links
 main:
+  - title: "Resume"
+    url: /resume
+
   - title: "Publications"
     url: /publications/
 
   - title: "Working Papers"
     url: /workingpapers/    
-
-  - title: "Resume"
-    url: /resume
